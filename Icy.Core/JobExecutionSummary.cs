@@ -9,10 +9,11 @@ namespace Icy
 {
     [DataContract]
     public class JobExecutionSummary
-    {       
+    {
+        public string ProcessorID { get; set; }
         public string JobId { get; set; }
         public string JobType { get; set; }
         public JobExecutionResult Result { get; set; }
-        public string Output { get; set; }
+        public string Output { get; set; }        
     }
 }

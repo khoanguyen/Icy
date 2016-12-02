@@ -16,5 +16,7 @@ namespace Icy
         public string ProcessingJobId { get; set; }
         [DataMember]
         public string ProcessingJobType { get; set; }
+        [DataMember]
+        public string ProcessorID { get; set; }
     }
 }
