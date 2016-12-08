@@ -42,21 +42,21 @@ namespace Icy.JobProcessor
 
         public static void RestoreDefault()
         {
-            CleanUp();
+            Finalize();
             Console.SetOut(_defaultWriter);
         }           
 
         public static void ResetIO()
         {
-            CleanUp();
+            Finalize();
             CaptureConsole();        
         }
 
-        private static void CleanUp()
+        public static void Finalize()
         {
-            if (_output != null) _output.Dispose();
-            if (_reader != null) _reader.Dispose();
-            if (_writer != null) _writer.Dispose();
+            if (_reader != null) _reader.Close();
+            if (_writer != null) _writer.Close();
+            if (_output != null) _output.Dispose();            
         }
     }
 }

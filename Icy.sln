@@ -14,6 +14,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Icy.JobProcessor", "Icy.Job
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Icy.Core", "Icy.Core\Icy.Core.csproj", "{FDBDE00B-F7D5-452C-A39E-F3F2D907EE19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClient", "TestClient\TestClient.csproj", "{06A1B49E-50F4-4EF7-A452-64D7D996CB3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Icy.ProcessServer", "Icy.ProcessServer\Icy.ProcessServer.csproj", "{B49EBBAC-98BC-481D-BAD5-3F4D3D6B35EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +32,14 @@ Global
 		{FDBDE00B-F7D5-452C-A39E-F3F2D907EE19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDBDE00B-F7D5-452C-A39E-F3F2D907EE19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDBDE00B-F7D5-452C-A39E-F3F2D907EE19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06A1B49E-50F4-4EF7-A452-64D7D996CB3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A1B49E-50F4-4EF7-A452-64D7D996CB3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A1B49E-50F4-4EF7-A452-64D7D996CB3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A1B49E-50F4-4EF7-A452-64D7D996CB3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B49EBBAC-98BC-481D-BAD5-3F4D3D6B35EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B49EBBAC-98BC-481D-BAD5-3F4D3D6B35EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B49EBBAC-98BC-481D-BAD5-3F4D3D6B35EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B49EBBAC-98BC-481D-BAD5-3F4D3D6B35EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
